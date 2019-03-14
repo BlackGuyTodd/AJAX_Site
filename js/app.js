@@ -16,7 +16,7 @@ function displaySearchTerm () {
         console.log(response);
         var image = results.images.fixed_width.url;
         var imageTag = $("<img>").attr("src", image);
-        searchDiv.append.imageTag;
+        searchDiv.append(imageTag);
 
         $("#gifs-appear-here").prepend(searchDiv);
     })
