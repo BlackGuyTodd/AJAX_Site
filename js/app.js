@@ -13,7 +13,7 @@ function displaySearchTerm() {
             console.log(results[i]);
             var searchDiv = $("<div class='search'>");
             var rating = results[i].rating;
-            var ratingParag = $("<p>").text("Rating: " + rating);
+            var ratingParag = $("<p class='rating'>").text("Rating: " + rating);
             searchDiv.append(ratingParag);
             
             var image = results[i].images.fixed_width.url;

@@ -10,3 +10,16 @@ button {
 label {
     color: whitesmoke;
 }
+
+img {
+    border: whitesmoke;
+    border-width: 20px;
+}
+
+.search {
+    color: black;
+}
+
+.rating {
+    color: whitesmoke;
+}
